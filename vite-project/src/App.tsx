@@ -16,7 +16,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Docker works!</h1>
+      <h1>Vite + React!!!!</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
@@ -33,7 +33,3 @@ function App() {
 }
 
 export default App
-/**
- * to run vite in a docker container it will use the current node_module cached
- * docker run -p 5173:5173 -v "$(pwd):/app" -v /app/node_modules react-docker
-*/
