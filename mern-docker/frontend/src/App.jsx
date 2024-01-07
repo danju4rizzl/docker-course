@@ -1,9 +1,9 @@
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom'
 
-import Home from "./pages/Home";
-import Create from "./pages/Create";
+import Home from './pages/Home'
+import Create from './pages/Create'
 
-import "./App.css";
+import './App.css'
 
 function App() {
   return (
@@ -27,7 +27,7 @@ function App() {
         <Route path="/create" element={<Create />} />
       </Routes>
     </Router>
-  );
+  )
 }
 
-export default App;
+export default App
